@@ -1,0 +1,45 @@
+/* styles.css */
+.body-background {
+    -fx-background-color: #2E4053; /* Темно-синий */
+}
+
+/* Цвета кнопок */
+.button {
+    -fx-background-color: #2980B9; /* Голубой */
+    -fx-text-fill: white;
+}
+
+.button-secondary {
+    -fx-background-color: #E67E22; /* Оранжевый */
+    -fx-text-fill: white;
+}
+
+.button-success {
+    -fx-background-color: #27AE60; /* Зеленый */
+    -fx-text-fill: white;
+}
+
+.button-danger {
+    -fx-background-color: #C0392B; /* Красный */
+    -fx-text-fill: white;
+}
+
+/* Цвета текстовых полей */
+.text-field {
+    -fx-background-color: #F1C40F; /* Желтый */
+    -fx-text-fill: #000000; /* Темно-серый */
+
+}
+
+.text-field-secondary {
+    -fx-background-color: #ECF0F1; /* Серебристый */
+    -fx-text-fill: #333333; /* Темно-серый */
+}
+
+.text-field-disabled {
+    -fx-background-color: #BDC3C7; /* Серый */
+    -fx-text-fill: #777777; /* Серый */
+}
+.anchor-pane{
+    -fx-background-color: #FFFF5005;
+}

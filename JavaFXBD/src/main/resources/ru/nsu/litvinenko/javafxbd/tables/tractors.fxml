@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableTractors" prefHeight="499.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="75.0" text="ID тягача" />
+            <TableColumn fx:id="columnCapacity" prefWidth="248.79998779296875" text="Максимальная грузоподъемность" />
+        </columns>
+      </TableView>
+      <HBox prefHeight="202.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="textFieldCapacity" text="Макс грузоподъемность" />
+            <Button fx:id="addTractorButton" mnemonicParsing="false" text="Добавить" />
+            <Button fx:id="close" mnemonicParsing="false" text="назад" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
