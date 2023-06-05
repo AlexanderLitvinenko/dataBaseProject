@@ -14,7 +14,7 @@
         <Text layoutX="615.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация о вооружении" />
         <Button fx:id="openNumberOfVehiclesButton" layoutX="387.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25" prefWidth="80" text="Транспорт" />
         <Button fx:id="openNumberOfWeaponsButton" layoutX="654.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25" prefWidth="80" text="Оружие" />
-        <Text layoutX="42.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Инфоормация о капитанах дивизий" />
+        <Text layoutX="42.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Инфоормация о командующими подразделениями" />
         <Button fx:id="openCaptainsTableButton" layoutX="74.0" layoutY="370.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="135.0" text="Капитаны дивизий" />
         <Button fx:id="openRequestsButton" layoutX="387.0" layoutY="490.0" mnemonicParsing="false" prefHeight="25" prefWidth="80" text="Запросы" />
         <Separator layoutY="136.0" prefHeight="16.0" prefWidth="843.0" />
